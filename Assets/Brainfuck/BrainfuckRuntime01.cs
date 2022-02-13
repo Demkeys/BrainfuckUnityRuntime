@@ -30,6 +30,7 @@ public class BrainfuckRuntime01 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        userInput.interactable = false;
         UpdateImgUI();
         // DebugStuff();
     }
@@ -37,9 +38,10 @@ public class BrainfuckRuntime01 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // For debugging
         if(Input.GetKeyDown(KeyCode.Space))
         {
-            StartRuntime();
+            // StartRuntime();
         }
 
         if(!isExecuting) return;
@@ -245,6 +247,7 @@ public class BrainfuckRuntime01 : MonoBehaviour
         UpdateImgUI();
     }
 
+    // Method for scratch coding. Not meant for prod.
     void DebugStuff()
     {
         // 0-7 = Instructions
