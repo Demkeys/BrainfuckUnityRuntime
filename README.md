@@ -4,4 +4,4 @@ Code can contain newlines, tabs and comments.
 
 Unity Version: 2021.1.31f1
 
-![](https://github.com/Demkeys/BrainfuckUnityRuntime/blob/main/BFRuntimeScreenshot01.png)
+![](https://github.com/Demkeys/BrainfuckUnityRuntime/blob/main/BFRuntimeScreenshot.png)
